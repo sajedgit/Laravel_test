@@ -36,3 +36,6 @@ Route::post('/submit','test@formSubmit');
 
 Route::get('/login', 'validationTest@index');
 Route::post('/submit_login','validationTest@SubmitLogin');
+
+Route::get('/users','Users@dbCheck');
+
